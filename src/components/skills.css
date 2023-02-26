@@ -27,12 +27,21 @@
   background-color: transparent;
 }
 
-.skills1,.skills2{
+.skills1{
   display: flex;
   flex-direction: column;
   width:50%;
   height: 100%;
   background-color: transparent;
+  animation: skills1 1000ms ease-in-out;
+}
+.skills2{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  height: 100%;
+  background-color: transparent;
+  animation: skills2 1000ms ease-in-out;
 }
 
 .skills1_heading{
@@ -142,3 +151,20 @@
   }
 }
 
+@keyframes skills1{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes skills2{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}

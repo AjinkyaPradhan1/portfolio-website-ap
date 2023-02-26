@@ -36,4 +36,14 @@
   width: 65%;
   height: 80%;
   border-radius: 50%;
+  animation: img-in 900ms ease-in;
+}
+
+@keyframes img-in{
+  0% {
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
 }
