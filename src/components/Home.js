@@ -1,5 +1,6 @@
 import "./home.css";
 import Navbar from "./Navbar";
+import Typed from "react-typed"
 
 function Home() {
     return (
@@ -29,6 +30,21 @@ function Home() {
 
           <div className="right">
             <div className="right_content">
+            <Typed
+              strings={[
+                    "I'm a Full Stack Developer",
+                    "I Love Software Development",
+                    "I am a Learner",
+                    "I am a writer",
+                    "I am a Creative Person",
+
+                    
+                  ]}
+                  typeSpeed={120}
+                  backSpeed={100}
+                  loop
+                />
+
                 <div className="right_content1">
                   <img class="image_back" src="images/img_back.jpg" alt="back_img"></img>
                   <img class="image_mine" src="images/img_mine.png" alt="mine_img"></img>
