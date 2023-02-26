@@ -19,7 +19,10 @@ function Skills() {
 
           <div className="skills_content1">
             <div className="skills1">
-              <div className="one"></div>
+              <div className="one">
+                <img class="java" src="./images/java.png" alt="java"></img>
+              </div>
+              <div className="two">Java</div>
             </div>
 
             <div className="skills2">
