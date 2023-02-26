@@ -26,9 +26,12 @@
 }
 .right{
     display: flex;
+    flex-direction:column ;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 60%;
     height: 100%;
-    background-color: orange;
+    background-color: transparent;
 }
 .left_content{
     display: flex;
@@ -63,4 +66,33 @@
 }
 .p1{
     font-size: 150%;
+}
+
+.right_content{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    
+}
+
+.right_content1{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    
+}
+
+.image_back{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border-radius: 60%;
+}
+.image_mine{
+    position: absolute;
+    top: 150px;
+    right: 74px;
+    width: 30%;
+    height: 60%;
 }
