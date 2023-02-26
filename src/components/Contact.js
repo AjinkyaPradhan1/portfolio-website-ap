@@ -8,7 +8,7 @@ function Contact() {
         
         {/* Navbar content and heading */}
         <div className="navbar">
-          <div className="navbar_text">Ajinkya Pradhan</div>
+          <div className="navbar_text">AP</div>
           <div className="navbar_content"><Navbar/></div>
         </div>
 
