@@ -21,7 +21,7 @@ function Skills() {
             <div className="skills1">
 
 
-              <div className="skills1_heading">Front-End Development Skills</div>
+              <div className="skills1_heading">Front-End Development</div>
               <div className="skills1_content">
                 
                 <div className="skills1_content_row1">
@@ -73,7 +73,54 @@ function Skills() {
             </div>
 
             <div className="skills2">
-                  
+            <div className="skills1_heading">Software Development</div>
+              <div className="skills1_content">
+                
+                <div className="skills1_content_row1">
+                  <div className="row1_1">
+                    <div className="one">
+                        <img class="icons" src="./images/java.png" alt="java"></img>
+                    </div>
+                    <div className="two">Java</div>
+                    <div className="three">Intermediate</div>
+                  </div>
+
+                  <div className="row1_2">
+                    <div className="one">
+                        <img class="icons" src="./images/cpp.png" alt="java"></img>
+                    </div>
+                    <div className="two">CPP</div>
+                    <div className="three">Intermediate</div>
+                  </div>
+
+                  <div className="row1_3">
+                    <div className="one">
+                        <img class="icons" src="./images/python.jpg" alt="java"></img>
+                    </div>
+                    <div className="two">Python</div>
+                    <div className="three">Beginner</div>
+                  </div>
+
+                </div>
+                <div className="skills1_content_row2">
+                    <div className="row1_1">
+                      <div className="one">
+                          <img class="icons" src="./images/sqlserver.jpg" alt="java"></img>
+                      </div>
+                      <div className="two">SQL Server</div>
+                      <div className="three">Intermediate</div>
+                    </div>
+
+                    <div className="row1_2">
+                        <div className="one">
+                            <img class="icons" src="./images/git.png" alt="java"></img>
+                        </div>
+                        <div className="two">Git</div>
+                        <div className="three">Intermediate</div>
+                    </div>
+                    <div className="row1_3"></div>
+                </div>
+              </div>
             </div>
             
           </div>

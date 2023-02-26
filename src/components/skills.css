@@ -16,7 +16,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: transparent;
 }
 
 .skills_content1{
@@ -24,16 +24,17 @@
   flex-direction: row;
   width: 100%;
   height: 90%;
-  background-color: orange;
+  background-color: transparent;
 }
 
-.skills1{
+.skills1,.skills2{
   display: flex;
   flex-direction: column;
   width:50%;
   height: 100%;
   background-color: transparent;
 }
+
 .skills1_heading{
   display: flex;
   align-items: center;
