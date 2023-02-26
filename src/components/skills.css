@@ -1,8 +1,36 @@
 .sMain{
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     width: 100vw;
     height: 100vh;
     background-color: transparent;
     font-size: 16.5px;
+    text-align: center;
   }
+
+.skills_content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.skills_content1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+  background-color: orange;
+}
+
+
+.skills1{
+  display: flex;
+  flex-direction: row;
+  width:50%;
+  height: 100%;
+  background-color: green;
+}
+
