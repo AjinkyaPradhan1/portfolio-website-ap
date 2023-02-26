@@ -52,6 +52,7 @@
     justify-content: center;
     font-size: 200%;
     font-family: 'Lobster', cursive;
+    animation : left1-load 300ms ease-in;
 }
 .left_content2{
     display: flex;
@@ -63,6 +64,7 @@
     font-size: 150%;
     font-family: 'Lobster', cursive;
     color: whitesmoke;
+    
 }
 .p1{
     font-size: 150%;
@@ -97,4 +99,14 @@
     right: 74px;
     width: 30%;
     height: 60%;
+}
+
+@keyframes left1-load{
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
 }

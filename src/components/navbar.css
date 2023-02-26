@@ -5,6 +5,7 @@
     background-color: #333;
     overflow: hidden;
     font-size: 16.5px;
+    animation: topnav-load 700ms ease-in;
   }
   
   /* Style the links inside the navigation bar */
@@ -30,4 +31,13 @@
     color: black;
     font-size: 120%;
     font-weight: 600;
+  }
+
+  @keyframes topnav-load{
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
