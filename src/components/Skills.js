@@ -12,7 +12,7 @@ function Skills() {
           <div className="navbar_content"><Navbar/></div>
         </div>
         
-        <h1>Skills</h1>
+        <h1>Technical Skills</h1>
         
 
         <div className="skills_content">
@@ -113,10 +113,10 @@ function Skills() {
 
                     <div className="row1_2">
                         <div className="one">
-                            <img class="icons" src="./images/git.png" alt="java"></img>
+                            <img class="icons" src="./images/django.webp" alt="java"></img>
                         </div>
-                        <div className="two">Git</div>
-                        <div className="three">Intermediate</div>
+                        <div className="two">Django</div>
+                        <div className="three">Beginner</div>
                     </div>
                     <div className="row1_3"></div>
                 </div>
@@ -126,9 +126,7 @@ function Skills() {
           </div>
 
           <div className="skills_content2">
-            <div className="skills3">
-              
-            </div>
+            
           </div>
 
         </div>
