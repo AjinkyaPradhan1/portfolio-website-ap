@@ -20,16 +20,6 @@ function About() {
           </div>
         </div>
         
-        {/* // <div className="right">
-        //     <div className="right_content">
-        //         <div className="right_content1">
-        //           <img class="image_back" src="images/img_back.jpg" alt="back_img"></img>
-        //           <img class="image_mine" src="images/img_mine.png" alt="mine_img"></img>
-                  
-        //         </div>
-        //     </div>
-        // </div> */}
-
       </div>
     );
   }
