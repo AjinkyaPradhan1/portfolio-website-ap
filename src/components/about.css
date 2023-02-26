@@ -1,8 +1,39 @@
 .aMain{
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     width: 100vw;
     height: 100vh;
     background-color: transparent;
     font-size: 16.5px;
   }
+.about_content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100% ;
+  background-color: transparent;
+}
+  .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+  }
+
+.right{
+  
+  display: flex;
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+
+.img_about{
+  position: relative;
+  width: 65%;
+  height: 80%;
+  border-radius: 50%;
+}
