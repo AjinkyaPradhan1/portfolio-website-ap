@@ -85,10 +85,11 @@
 .image_back{
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
     position: relative;
     width: 80%;
     height: 100%;
-    border-radius: 60%;
+    border-radius: 40%;
 }
 .image_mine{
     position: absolute;
