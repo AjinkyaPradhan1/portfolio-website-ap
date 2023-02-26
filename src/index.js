@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Qual from "./components/Qual";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/skills" element={ <Skills /> } />
         <Route path="/qual" element={ <Qual /> } />
         <Route path="/projects" element={ <Projects /> } />
+        <Route path="/about" element={ <About /> } />
       </Routes>
   </BrowserRouter>
 );
