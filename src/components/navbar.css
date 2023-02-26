@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation */
 .topnav {
     display: flex;
-    width: 150%;
+    width: 120%;
     background-color: #333;
     overflow: hidden;
     font-size: 16.5px;

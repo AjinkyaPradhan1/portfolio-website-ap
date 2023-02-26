@@ -5,11 +5,12 @@ function Home() {
     return (
       <div className="hMain">
 
+      {/* Navbar content and heading */}
         <div className="navbar">
-          <Navbar/>
+          <div className="navbar_text">Ajinkya Pradhan</div>
+          <div className="navbar_content"><Navbar/></div>
         </div>
-        
-        Home
+
       </div>
     );
   }
