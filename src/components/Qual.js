@@ -3,9 +3,14 @@ import Navbar from "./Navbar";
 
 function Qual() {
     return (
-      <div className="nMain">
-        <Navbar/>
-        News
+      <div className="qMain">
+        
+        {/* Navbar content and heading */}
+        <div className="navbar">
+          <div className="navbar_text">Ajinkya Pradhan</div>
+          <div className="navbar_content"><Navbar/></div>
+        </div>
+        
       </div>
     );
   }
