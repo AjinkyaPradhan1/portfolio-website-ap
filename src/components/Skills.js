@@ -1,4 +1,5 @@
 import "./home.css";
+import "./skills.css";
 import Navbar from "./Navbar";
 
 function Skills() {

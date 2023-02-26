@@ -1,4 +1,5 @@
 import "./home.css";
+import "./qual.css";
 import Navbar from "./Navbar";
 
 function Qual() {
@@ -10,7 +11,7 @@ function Qual() {
           <div className="navbar_text">Ajinkya Pradhan</div>
           <div className="navbar_content"><Navbar/></div>
         </div>
-        
+
       </div>
     );
   }
