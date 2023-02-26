@@ -52,7 +52,7 @@
     justify-content: center;
     font-size: 200%;
     font-family: 'Lobster', cursive;
-    animation : left1-load 300ms ease-in;
+    animation : left1-load 800ms ease-in-out;
 }
 .left_content2{
     display: flex;

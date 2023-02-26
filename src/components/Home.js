@@ -33,14 +33,15 @@ function Home() {
             <Typed
               strings={[
                     "I'm a Full Stack Developer",
-                    "I Love Software Development",
-                    "I am a Learner",
-                    "I am a writer",
+                    "I am a Critical Thinker",
+                    "I am a Problem Solver",
+                    "I am a Determined Learner",
+                    "I am a Enthusiastic Writer",
                     "I am a Creative Person",
 
                     
                   ]}
-                  typeSpeed={120}
+                  typeSpeed={140}
                   backSpeed={100}
                   loop
                 />

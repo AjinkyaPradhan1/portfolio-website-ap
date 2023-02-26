@@ -7,9 +7,9 @@ function Navbar(){
                 <a class="active" href="/">Home</a>
                 <a href='/about'>About</a>
                 <a href='/skills'>Skills</a>
-                <a href='/qual'>Qualification</a>
                 <a href='/projects'>Projects</a>
                 <a href='/contact'>Contact</a>
+                
                 
             </div>
         </div>

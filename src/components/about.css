@@ -26,7 +26,7 @@
 .right{
   
   display: flex;
-    background-color: green;
+    background-color: transparent;
     width: 50%;
     height: 100%;
 }
