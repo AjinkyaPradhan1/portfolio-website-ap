@@ -1,7 +1,22 @@
 .App {
   text-align: center;
 }
-
+.hMain{
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.navbar{
+  display: flex;
+  width: 70%;
+  height: 10%;
+  background-color: green;
+  justify-content: left;
+  align-items: center;
+}
 
 
 

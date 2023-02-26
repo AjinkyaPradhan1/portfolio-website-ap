@@ -4,7 +4,11 @@ import Navbar from "./Navbar";
 function Home() {
     return (
       <div className="hMain">
-        <Navbar/>
+
+        <div className="navbar">
+          <Navbar/>
+        </div>
+        
         Home
       </div>
     );

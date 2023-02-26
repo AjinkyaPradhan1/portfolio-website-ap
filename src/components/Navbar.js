@@ -9,7 +9,6 @@ function Navbar(){
                 <a href='/qual'>Qualification</a>
                 <a href='/projects'>Projects</a>
                 <a href='/contact'>Contact</a>
-                <a href='#test'>Test</a>
             </div>
         </div>
     );
