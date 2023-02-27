@@ -1,6 +1,7 @@
 import "./home.css";
 import "./contact.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Contact() {
     return (
@@ -56,6 +57,8 @@ function Contact() {
             
           </div>
         </div>
+
+        <Footer/>
       </div>
     );
   }

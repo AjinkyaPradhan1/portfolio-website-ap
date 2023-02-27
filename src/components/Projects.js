@@ -1,6 +1,7 @@
 import "./home.css";
 import "./projects.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Projects() {
     return (
@@ -124,8 +125,9 @@ function Projects() {
           </div>
         </div>
 
-        <div className="footer"></div>
-
+        <div className="footer">
+          <Footer/>
+        </div>
       </div>
     );
   }

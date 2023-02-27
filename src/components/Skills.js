@@ -1,6 +1,7 @@
 import "./home.css";
 import "./skills.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Skills() {
     return (
@@ -130,7 +131,7 @@ function Skills() {
           </div>
 
         </div>
-
+        <Footer/>
       </div>
     );
   }

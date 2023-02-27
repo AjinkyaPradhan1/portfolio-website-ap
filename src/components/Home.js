@@ -1,6 +1,7 @@
 import "./home.css";
 import Navbar from "./Navbar";
 import Typed from "react-typed"
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -36,7 +37,7 @@ function Home() {
                     "I am a Critical Thinker",
                     "I am a Problem Solver",
                     "I am a Determined Learner",
-                    "I am a Enthusiastic Writer",
+                    "I am an Enthusiastic Writer",
                     "I am a Creative Person",
 
                     
@@ -55,7 +56,11 @@ function Home() {
           </div>
         </div>
 
+        <Footer/>
+
       </div>
+
+      
     );
   }
   

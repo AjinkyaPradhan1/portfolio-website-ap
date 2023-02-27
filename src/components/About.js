@@ -1,6 +1,7 @@
 import "./about.css";
 import "./home.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer"
 
 function About() {
     return (
@@ -56,7 +57,7 @@ function About() {
         </div>
 
         
-        
+        <Footer/>
       </div>
     );
   }
