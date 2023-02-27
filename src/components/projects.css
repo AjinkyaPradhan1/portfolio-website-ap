@@ -33,7 +33,16 @@
     margin-bottom: 1%;
   }
 
-  .p_content_1,.p_content_2,.p_content_3,.p_content_4,.p_content_5,.p_content_6,.p_content_6,.p_content_7,.p_content_8,.p_content_9{
+  .p_content_1,.p_content_2,.p_content_3,.p_content_4,.p_content_5,.p_content_6,.p_content_6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    background-color: transparent;
+  }
+  .p_content_7,.p_content_8,.p_content_9{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,6 +57,18 @@
     width: 90%;
     height:90%;
     background-color: orange;
+    border-radius: 10%;
+
+  }
+  .p_content_2_image{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    height:90%;
+    background-color: transparent;
     border-radius: 10%;
 
   }
@@ -132,7 +153,7 @@
   }
 
   .project{
-    height: 50%;
+    height: 40%;
     width: 70%;
     border-radius: 20px;
     font-size: 60%;
@@ -156,4 +177,31 @@
   }
   a:hover{
     color: blue;
+  }
+
+  .arrow{
+    width: 10%;
+  }
+
+  .gconsole,.github{
+    width: 50%;
+    height: 20%;
+    border-radius: 20%;
+    font-size: 110%;
+    background-color: skyblue;
+    color: white;
+    gap: 2px;
+  }
+  .project{
+    width: 120%;
+    height: 100%;
+  }
+  .qmania,.calcButton{
+    height: 50%;
+    width: 70%;
+    border-radius: 20px;
+    font-size: 60%;
+    font-weight: 600;
+    background-color: orange;
+    margin-left: 10%;
   }
