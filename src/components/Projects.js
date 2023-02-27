@@ -75,7 +75,7 @@ function Projects() {
 
           <div className="p_content_5">
               <div className="p_content_1_image">
-                  <img class="image__img" src="" alt="Bricks"/>
+                  <img class="image__img" src="./images/learning.jpg" alt="Bricks"/>
                       <div class="image__overlay image__overlay--primary">
                       <div class="image__title">
           
@@ -90,7 +90,7 @@ function Projects() {
           <div className="p_content_6">
               <div className="p_content_1_image">
 
-              <img class="image__img" src="" alt="Bricks"/>
+              <img class="image__img" src="./images/art.jpg" alt="Bricks"/>
                       <div class="image__overlay image__overlay--primary">
                       <div class="image__title">
                         
@@ -104,8 +104,8 @@ function Projects() {
 
           <div className="p_content_7">
               <div className="p_content_2_image">
-                        <button className="github"><a href="">Github</a></button><br></br>
-                        <button className="gconsole"><a href="">Google Play Console</a></button>
+                        <button className="github"><a href="https://github.com/AjinkyaPradhan1/">Github</a></button><br></br>
+                        <button className="gconsole"><a href="https://play.google.com/store/apps/developer?id=AJINKYA+PRADHAN">Google Play Console</a></button>
               </div>
               <div className="p_content_1_details">Check out More Projects
               <img src="./images/arrow2.png" class="arrow" alt="arrow"></img></div>
