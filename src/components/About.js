@@ -22,7 +22,7 @@ function About() {
               <div className="about_me_desc">
               Believer of excellence, having the zeal to up-skill, being efficient and productive for the 
               organization and develop as well as diversify my professional
-              skill-set. Looking forward to working as a Software Professional in 
+              skill-set. Looking forward to work as a Software Professional in 
               an Esteemed Corporation to get exposure to national as well as international
               clients.
               </div>
@@ -36,6 +36,7 @@ function About() {
                     Current Address:<br></br>
                     Languages Known:<br></br>
                     Interests:<br></br>
+                    Hobbies:<br></br>
                   </div>
                 </div>
                 <div className="details">
@@ -45,7 +46,8 @@ function About() {
                     August 25,2001<br></br>
                     Pune, India<br></br>
                     English, Hindi, Marathi, Gujarati<br></br>
-                    Web Development, Software Development
+                    Web Development, Software Development<br></br>
+                    Learning languages, Football, Cricket, Painting, Reading Books
                   </div>
                 </div>
               </div>
