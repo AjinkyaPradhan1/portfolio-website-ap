@@ -37,19 +37,57 @@
 
 .ig{
   display: flex;
+  position: relative;
   width: 40%;
   height: 45%;
   border-radius: 50%;
   background-color: #333;
 }
 
-.ig1{
+.ic1{
   display: flex;
   position: relative;
   width: 20%;
   height: 30%;
   border-radius: 50%;
   background-color: #333;
+  animation: ic1-in 1000ms ease-in-out;
+}
+.ic2{
+  display: flex;
+  position: relative;
+  width: 20%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: #333;
+  animation: ic1-in 1400ms ease-in-out;
+}
+.ic3{
+  display: flex;
+  position: relative;
+  width: 20%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: #333;
+  animation: ic1-in 1800ms ease-in-out;
+}
+.ic4{
+  display: flex;
+  position: relative;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  background-color: #333;
+  animation: ic1-in 2200ms ease-in-out;
+}
+.ic5{
+  display: flex;
+  position: relative;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  background-color: #333;
+  animation: ic1-in 2600ms ease-in-out;
 }
 .image__img {
 	display: block;
@@ -97,11 +135,13 @@
 .image__title {
 	font-size: 2em;
 	font-weight: bold;
+  color: black;
 }
 
 .image__description {
 	font-size: 1.25em;
 	margin-top: 0.25em;
+  color: black;
 }
 
 a{
@@ -113,4 +153,21 @@ a{
 }
 a:hover{
   color: white;
+}
+
+@keyframes ic1-in{
+  0%{
+    transform: translateY(70%);
+  }
+  50%{
+    transform: translateY(-50%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+
+.email{
+  font-size: 100%;
 }
