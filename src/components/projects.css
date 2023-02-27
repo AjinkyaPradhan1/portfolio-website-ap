@@ -20,7 +20,7 @@
     height: 700px;
     background-color: transparent;
     gap: 3%;
-    
+    animation: content_in 1000ms ease-in-out;
   }
   .projects_heading{
     display: flex;
@@ -204,4 +204,22 @@
     font-weight: 600;
     background-color: orange;
     margin-left: 10%;
+  }
+
+  @keyframes content_in{
+    0%{
+      opacity: 0;
+    }
+    25%{
+      opacity: 0.25;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    75%{
+      opacity: 0.75;
+    }
+    100%{
+      opacity: 1;
+    }
   }
