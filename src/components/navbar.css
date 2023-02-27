@@ -6,6 +6,7 @@
     overflow: hidden;
     font-size: 16.5px;
     animation: topnav-load 700ms ease-in;
+    margin-top: 10px;
   }
   
   /* Style the links inside the navigation bar */

@@ -1,38 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .pMain{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background-color: transparent;
     font-size: 16.5px;
+    scroll-behavior: smooth;
   }
 
   .projects_content{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    height: 100%;
-    background-color: yellow;
+    height: 700px;
+    background-color: transparent;
+    gap: 3%;
+    
+  }
+  .projects_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 220%;
+    font-weight: 500;
+    font-family: 'Lobster',cursive;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
-  .p_content_1{
+  .p_content_1,.p_content_2,.p_content_3,.p_content_4,.p_content_5,.p_content_6,.p_content_6,.p_content_7,.p_content_8,.p_content_9{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 30%;
-    height: 100%;
-    background-color: blue;
+    height: 50%;
+    background-color: transparent;
   }
-  .p_content_2{
+  .p_content_1_image{
     display: flex;
-    width: 30%;
-    height: 100%;
-    background-color: red;
+    width: 90%;
+    height:90%;
+    background-color: orange;
+    border-radius: 10%;
+
   }
-  .p_content_3{
+  .p_content_1_details{
     display: flex;
-    width: 30%;
-    height: 100%;
-    background-color: blue;
+    width: 90%;
+    height:20%;
+    background-color: transparent;
+    border-radius: 0%;
+    font-size: 150%;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+
   }
-  
+
+  .footer{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    margin-top: 430px;
+  }
