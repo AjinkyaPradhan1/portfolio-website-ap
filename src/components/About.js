@@ -61,7 +61,7 @@ function About() {
           
         </div>
 
-        <div className="footer">
+        <div className="footer_about">
               <Footer/>
               </div>
         

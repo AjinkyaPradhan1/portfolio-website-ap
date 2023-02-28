@@ -137,7 +137,7 @@
     transform: translateX(0%);
   }
 }
-.footer{
+.footer_about{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -240,13 +240,13 @@
     
   }
   
-  .footer{
+  .footer_about{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     height: 8%;
-    margin-top: -4300px;
+    margin-top: 900px;
   }
   
   
@@ -335,13 +335,13 @@
     
   }
   
-  .footer{
+  .footer_about{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     height: 10%;
-    margin-top: -1700px;
+    margin-top: 1100px;
     
   }
   
