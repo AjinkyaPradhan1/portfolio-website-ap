@@ -109,7 +109,7 @@ function Projects() {
                         <button className="github"><a href="https://github.com/AjinkyaPradhan1/">Github</a></button><br></br>
                         <button className="gconsole"><a href="https://play.google.com/store/apps/developer?id=AJINKYA+PRADHAN">Google Play Console</a></button>
               </div>
-              <div className="p_content_1_details">Check out More Projects
+              <div className="p_content_1_details">More Projects
               <img src="./images/arrow2.png" class="arrow" alt="arrow"></img></div>
           </div>
 
