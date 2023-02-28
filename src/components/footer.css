@@ -22,3 +22,12 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width:480px){
+    .topic1{
+        font-size: 70%;
+    }
+    .topic2{
+        font-size: 80%;
+    }
+}
