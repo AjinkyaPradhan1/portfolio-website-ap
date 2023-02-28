@@ -38,9 +38,10 @@
 .img_about{
   position: relative;
   width: 65%;
-  height: 80%;
+  height: 100%;
   border-radius: 50%;
   animation: img-in 2500ms ;
+  margin-top: 10%;
 }
 
 @keyframes img-in{
@@ -117,9 +118,7 @@
   font-size: 110%;
   color: black;
 }
-.details480px{
-  visibility: hidden;
-}
+
 
 @keyframes title-in{
   0%{
@@ -138,6 +137,15 @@
     transform: translateX(0%);
   }
 }
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top:10%;
+  width: 100%;
+  height: 15%;
+  background-color: #333;
+}
 
 @keyframes heading-rotate{
   0%{
@@ -146,6 +154,7 @@
   100%{
     transform: scaleX(2);
   }
+  
 }
 
 @media only screen and (max-width:480px){
@@ -237,7 +246,7 @@
     align-items: center;
     position: absolute;
     height: 8%;
-    margin-top: -1900px;
+    margin-top: -4300px;
   }
   
   
@@ -332,7 +341,7 @@
     align-items: center;
     position: absolute;
     height: 10%;
-    margin-top: 550px;
+    margin-top: -1700px;
     
   }
   

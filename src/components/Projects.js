@@ -127,7 +127,7 @@ function Projects() {
         </div>
         
 
-        <div className="footer">
+        <div className="footer_project">
           <Footer/>
         </div>
       </div>
