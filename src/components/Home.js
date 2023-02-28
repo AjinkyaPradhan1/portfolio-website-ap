@@ -34,11 +34,12 @@ function Home() {
             <Typed
               strings={[
                     "I'm a Full Stack Developer",
-                    "I am a Critical Thinker",
-                    "I am a Problem Solver",
-                    "I am a Determined Learner",
-                    "I am an Enthusiastic Writer",
-                    "I am a Creative Person",
+                    "I'm an Enthusiastic Technophile" ,
+                    "I'm a Critical Thinker",
+                    "I'm a Problem Solver",
+                    "I'm a Determined Learner",
+                    "I'm an Articulate Writer",
+                    "I'm a Creative Person",
 
                     
                   ]}
