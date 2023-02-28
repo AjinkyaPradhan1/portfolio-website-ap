@@ -22,7 +22,7 @@ function Home() {
                 <div className="p0">Hi.......</div>
                 <div className="p1">I'm, Ajinkya Pradhan</div>
               </div>
-              <div className="left_content2">This is my Portfolio Website</div>
+              <div className="left_content2">This is my Portfolio WebApp</div>
 
               
             </div>
