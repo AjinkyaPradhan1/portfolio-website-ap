@@ -196,7 +196,9 @@
   .about_me_desc{
     display: flex;
     position: absolute;
-    width: 100%;
+    justify-content: center;
+    text-align: justify;
+    width: 95%;
     font-size:100% ;
     font-weight: 500;
     margin-top: 75px;

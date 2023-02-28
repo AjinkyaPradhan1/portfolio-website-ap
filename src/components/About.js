@@ -21,11 +21,10 @@ function About() {
           <div className="right_about">
               <div className="about_me_heading">About Me</div>
               <div className="about_me_desc">
-              Believer of excellence, having the zeal to up-skill, being efficient and productive for the 
-              organization and develop as well as diversify my professional
-              skill-set. Looking forward to work as a Software Professional in 
-              an Esteemed Corporation to get exposure to national as well as international
-              clients.
+              Believer of excellence, Enthusiastic Technophile, 
+              Skilled in leadership and communication, having the zeal to up-skill,
+              develop as well as diversify my professional
+              skill-set. Seeking to use proven skills in leadership, debugging, and coding to meet business needs at Meed.
               </div>
 
               <div className="key_value">
