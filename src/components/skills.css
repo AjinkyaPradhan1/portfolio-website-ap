@@ -176,3 +176,43 @@
   height: 50px;
   background-color: red;
 } */
+
+@media only screen and (max-width:480px){
+  .sMain{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100vw;
+    height: 810px;
+    background-color: transparent;
+    font-size: 16.5px;
+    text-align: center;
+  }
+
+  .skills_content1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 712px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    background-color: transparent;
+    animation: skills1 1000ms ease-in-out;
+  }
+  .skills2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 500px;
+    background-color: transparent;
+    animation: skills2 1000ms ease-in-out;
+  }
+}
