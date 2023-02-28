@@ -187,15 +187,13 @@
   }
   .key_value{
     position: absolute;
-    margin-top: 260px;
+    margin-top: 230px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 100%;
     font-size: 16.5px;
-    background-color: transparent;
+    background-color: red;
   
     
   }
@@ -203,7 +201,7 @@
   .title{
     display: flex;
     visibility: visible;
-    justify-content:  center;
+    
     width: 40%;
     height: 100%;
     background-color: white;
@@ -214,18 +212,14 @@
   .details{
     display: flex;
     visibility: visible;
-    justify-content: center;
-    width: 100%;
+    
+    width: 60%;
     height: 100%;
     background-color: white;
     font-size: 80%;
     animation: details-in 1000ms ease-in-out;
   }
-  .footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
   
   
 }

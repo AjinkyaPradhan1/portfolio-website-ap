@@ -52,21 +52,13 @@ function About() {
                   </div>
                 </div>
 
-                {/* <div className="details480px">
-                    Name: Ajinkya Pradhan<br></br>
-                    City: Indore<br></br>
-                    Date of Birth: August 25,2001<br></br>
-                    Current Address: Pune, India<br></br>
-                    Languages Known: English, Hindi, Marathi, Gujarati<br></br>
-                    Interests: Web & Software Development<br></br>
-                    Hobbies: Learning languages, Football, Cricket, Painting, Reading Books<br></br>
-                </div> */}
+                {/*  */}
               </div>
               
           </div>
         </div>
 
-        <div className="footer"><Footer/></div>
+        
         
       </div>
     );
