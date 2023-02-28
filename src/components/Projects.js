@@ -16,6 +16,7 @@ function Projects() {
         <div className="projects_heading">My Projects</div>
         
         <div className="projects_content">
+      
           <div className="p_content_1">
               <div className="p_content_1_image">
                   <img class="image__img" src="./images/quizmaina.png" alt="Bricks"/>
@@ -124,6 +125,7 @@ function Projects() {
               <div className="p_content_1_details"></div>
           </div>
         </div>
+        
 
         <div className="footer">
           <Footer/>
