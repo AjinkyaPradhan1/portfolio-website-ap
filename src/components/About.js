@@ -46,7 +46,7 @@ function About() {
                     August 25,2001<br></br>
                     Pune, India<br></br>
                     English, Hindi, Marathi, Gujarati<br></br>
-                    Web & Software Development<br></br>
+                    Full Stack Development (FrontEnd+BackEnd)<br></br>
                     Learning languages, Football, Cricket, Painting, Reading Books
                   </div>
                 </div>
