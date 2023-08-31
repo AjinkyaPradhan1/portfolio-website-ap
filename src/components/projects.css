@@ -226,6 +226,16 @@
   
 
   @media only screen and (max-width:480px){
+    .pMain{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 100vw;
+      height: max-content;
+      background-color: transparent;
+      font-size: 16.5px;
+      scroll-behavior: smooth;
+    }
     .projects_heading{
       display: flex;
       align-items: center;
@@ -263,21 +273,33 @@
       align-items: center;
       justify-content: center;
       width: 70%;
+      height: 70%;
+      background-color: transparent;
+    }
+    .p_content_8{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
       height: 20%;
       background-color: transparent;
     }
-    .p_content_8,.p_content_9{
+    .p_content_9{
       visibility: hidden;
-      height: 0%;
-      width: 0%;
+      height: 0px;
+      width: 0px;
     }
+
     .footer_project{
       display: flex;
       align-items: center;
       justify-content: center;
       width: 100%;
-      height: 100%;
-      margin-top: 2550px;
+      height: 5%;
+      margin-top: 3050px;
+      
+      
     }
     .arrow{
       width: 10%;
@@ -294,6 +316,16 @@
   }
 
   @media only screen and (max-width:768px) and (min-width:481px){
+    .pMain{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 100vw;
+      height: max-content;
+      background-color: transparent;
+      font-size: 16.5px;
+      scroll-behavior: smooth;
+    }
     .projects_heading{
       display: flex;
       align-items: center;
@@ -331,21 +363,31 @@
       align-items: center;
       justify-content: center;
       width: 70%;
+      height: 70%;
+      background-color: transparent;
+    }
+    .p_content_8{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
       height: 20%;
       background-color: transparent;
     }
-    .p_content_8,.p_content_9{
+    .p_content_9{
       visibility: hidden;
-      height: 0%;
-      width: 0%;
+      height: 0px;
+      width: 0px;
     }
+
     .footer_project{
       display: flex;
       align-items: center;
       justify-content: center;
       width: 100%;
-      height: 100%;
-      margin-top: 2550px;
+      height: 5%;
+      margin-top: 3050px;
       
       
     }
