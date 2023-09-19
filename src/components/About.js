@@ -44,9 +44,9 @@ function About() {
                     Ajinkya Pradhan <br></br>
                     Indore<br></br>
                     August 25,2001<br></br>
-                    Pune, India<br></br>
+                    Indore, India<br></br>
                     English, Hindi, Marathi, Gujarati<br></br>
-                    Full Stack Development (FrontEnd+BackEnd)<br></br>
+                    Full Stack Development, Java Developer , Web Developer<br></br>
                     Learning languages, Football, Cricket, Painting, Reading Books
                   </div>
                 </div>
