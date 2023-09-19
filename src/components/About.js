@@ -30,13 +30,13 @@ function About() {
               <div className="key_value">
                 <div className="title">
                   <div className="title_contents">
-                    Name: <br></br>
-                    City:<br></br>
-                    Date of Birth:<br></br>
-                    Current Address:<br></br>
-                    Languages Known:<br></br>
-                    Interests:<br></br>
-                    Hobbies:<br></br>
+                    Name: <div className="title_contents_name">Ajinkya Pradhan</div><br></br>
+                    City: <div className="title_contents_city">Indore</div><br></br>
+                    Date of Birth:<div className="title_contents_dob">August 25,2001</div><br></br>
+                    Current Address:<div className="title_contents_ca">Indore, India</div><br></br>
+                    Languages Known:<div className="title_contents_langKnown">English, Hindi, Marathi, Gujarati</div><br></br>
+                    Interests:<div className="title_contents_interest">Full Stack Development, Java Developer , Web Developer</div><br></br>
+                    Hobbies:<div className="title_contents_hobbies">Learning languages, Football, Cricket, Painting, Reading Books</div><br></br>
                   </div>
                 </div>
                 <div className="details">
