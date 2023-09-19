@@ -16,6 +16,10 @@
   height:100% ;
   background-color: transparent;
 }
+.right_img_about{
+  display: none;
+  visibility: hidden;
+}
   .left_about{
     display: flex;
     align-items: center;
@@ -75,6 +79,10 @@
   font-weight: 500;
   margin-top: 5%;
 }
+.about_me_desc_left{
+  display: none;
+  visibility: hidden;
+}
 
 .key_value{
   display: flex;
@@ -89,7 +97,7 @@
   display: flex;
   justify-content: flex-start;
   width: 30%;
-  height: 120%;
+  height: 100%;
   background-color: transparent;
   color: black;
   animation: title-in 600ms ease-in-out;
@@ -153,11 +161,42 @@
 
 .details_content{
   display: flex;
+  flex-direction: column;
   margin-top: 25px;
-  line-height: 35px;
+  line-height: 10px;
   font-weight: 630;
   font-size: 110%;
   color: black;
+}
+.details_content_nameCont,.details_content_cityCont
+{
+  display: flex;
+  padding: 10px;
+  width: 50%;
+  height: 20%;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 730;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.details_content_dobCont,.details_content_caCont,
+.details_content_langCont,.details_content_intCont,
+.details_content_hobbCont{
+  display: flex;
+  padding: 10px;
+  width: 80%;
+  height: 20%;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 730;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 
@@ -182,7 +221,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top:10%;
   width: 100%;
   height: 15%;
   background-color: #333;
@@ -252,12 +290,10 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50%;
+    height: 100%;
     font-size: 16.5px;
     background-color: transparent;
-   
   
-    
   }
   
   .title{
@@ -312,14 +348,21 @@
     align-items: center;
     visibility: visible;
     background-color: transparent;
-    width: 60%;
+    width: 70%;
     height: max-content;
     background-color: black;
     color: orange;
-    padding: 6px;
+    padding: 7px;
     border-radius: 20px;
     font-weight: 630;
     
+  }
+  .title_contents_nameHead,.title_contents_cityHead
+  ,.title_contents_dobHead,.title_contents_caHead
+  ,.title_contents_langHead,.title_contents_intHead
+  ,.title_contents_hobbHead{
+    display: flex;
+    width:50% ;
   }
  
   .details{
@@ -339,6 +382,36 @@
     width: 0px;
     height: 0px;
   }
+  .details_content_nameCont,.details_content_cityCont
+{
+  display: flex;
+  padding: 10px;
+  width: 60%;
+  height: 20%;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 730;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.details_content_dobCont,.details_content_caCont,
+.details_content_langCont,.details_content_intCont,
+.details_content_hobbCont{
+  display: flex;
+  padding: 10px;
+  width: 60%;
+  height: 20%;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 730;
+  align-items: center;
+  justify-content: center;
+  
+}
   .footer_about{
     display: flex;
     justify-content: center;
@@ -390,6 +463,7 @@
   .about_me_desc{
     display: flex;
     position: absolute;
+    text-align: center;
     width: 100%;
     font-size:110% ;
     font-weight: 500;
@@ -414,17 +488,77 @@
   .title{
     display: flex;
     visibility: visible;
-    
-    width: 40%;
-    height: 100%;
-    background-color: white;
+    margin-top: 1px;
+    width: 100%;
+    height: max-content;
+    background-color: transparent;
     font-size: 110%;
     color: black;
     animation: title-in 600ms ease-in-out;
   }
-  .details{
+  .title_contents{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    margin-top: 0px;
+    line-height:25px;
+    font-weight: 790;
+    font-size: 120%;
+    color: black;
+    
+    background-color: transparent;
+    
+  }
+  .title_contents_name,.title_contents_city,.title_contents_dob,
+  .title_contents_ca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     visibility: visible;
+    background-color: transparent;
+    width: 60%;
+    height: max-content;
+    color: black;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 630;
+    
+  }
+
+  .title_contents_langKnown,.title_contents_interest,
+  .title_contents_hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 70%;
+    height: max-content;
+    background-color: black;
+    color: orange;
+    padding: 7px;
+    border-radius: 20px;
+    font-weight: 630;
+    
+  }
+  
+  .title_contents_nameHead,.title_contents_cityHead
+  ,.title_contents_dobHead,.title_contents_caHead
+  ,.title_contents_langHead,.title_contents_intHead
+  ,.title_contents_hobbHead{
+    display: flex;
+    width:50% ;
+    padding: 8px;
+  }
+
+  .details{
+    display: none;
+    visibility: hidden;
     
     width: 60%;
     height: 50%;
@@ -440,9 +574,552 @@
     align-items: center;
     position: absolute;
     height: 10%;
-    margin-top: 1100px;
+    margin-top: 1400px;
     
   }
   
   
 }
+
+@media only screen and (max-width:481px) and (min-width:455px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1450px;
+    
+  }
+}
+
+@media only screen and (max-width:500px) and (min-width:481px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1600px;
+    
+  }
+}
+
+@media only screen and (max-width:556px) and (min-width:500px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1600px;
+    
+  }
+}
+
+@media only screen and (max-width:600px) and (min-width:556px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1650px;
+    
+  }
+}
+
+@media only screen and (max-width:650px) and (min-width:600px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1700px;
+    
+  }
+}
+@media only screen and (max-width:700px) and (min-width:650px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1750px;
+    
+  }
+}
+
+@media only screen and (max-width:768px) and (min-width:700px){
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1850px;
+    
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1000px){
+  
+  .left_about{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 50%;
+    height: max-content;
+  }
+  .right_about{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.about_me_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 260%;
+  font-weight: 500;
+  font-family:'Lobster',cursive ;
+  animation: heading-rotate 500ms;
+  margin-top: 2%;
+}
+.about_me_desc{
+  display: flex;
+  font-size:120% ;
+  font-weight: 500;
+  margin-top: 5%;
+}
+  .right_img_about{
+    display: flex;
+    visibility: visible;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    animation: img-in 2500ms ;
+    margin-top: 5%;
+    background-color: red;
+  }
+  .title{
+    display: flex;
+    visibility: visible;
+    margin-top: 10px;
+    width: 100%;
+    height: max-content;
+    background-color: transparent;
+    font-size: 140%;
+    color: black;
+    animation: title-in 600ms ease-in-out;
+    margin-top: 40px;
+  }
+  .title_contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    margin-top: 0px;
+    line-height:25px;
+    font-weight: 790;
+    font-size: 100%;
+    color: black;
+    
+    background-color: transparent;
+    
+  }
+  .title_contents_name,.title_contents_city,.title_contents_dob,
+  .title_contents_ca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 60%;
+    height: max-content;
+    color: black;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 630;
+    
+  }
+
+  .title_contents_langKnown,.title_contents_interest,
+  .title_contents_hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 70%;
+    height: max-content;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 630;
+    text-align: center;
+    
+  }
+  
+  .title_contents_nameHead,.title_contents_cityHead
+  ,.title_contents_dobHead,.title_contents_caHead
+  ,.title_contents_langHead,.title_contents_intHead
+  ,.title_contents_hobbHead{
+    display: flex;
+    width:50% ;
+    padding: 10px;
+  }
+
+  .details{
+    display: none;
+    visibility: hidden;
+    
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    font-size: 100%;
+    animation: details-in 1000ms ease-in-out;
+    
+  }
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1700px;
+    
+  }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1249px){
+  
+  .left_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 50%;
+    height: max-content;
+  }
+  .right_about{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.img_about{
+  position: relative;
+  width: 65%;
+  height: 100%;
+  border-radius: 50%;
+  animation: img-in 2500ms ;
+  margin-top: 15%;
+}
+.about_me_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 260%;
+  font-weight: 500;
+  font-family:'Lobster',cursive ;
+  animation: heading-rotate 500ms;
+  margin-top: 2%;
+}
+.about_me_desc{
+  display: none;
+  visibility: hidden;
+  font-size:120% ;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.about_me_desc_left{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  font-size:120% ;
+  font-weight: 500;
+  margin-top: 10px;
+  animation: details-in 1000ms ease-in-out;
+}
+  .right_img_about{
+    display: none;
+    visibility: hidden;
+    
+  }
+  .title{
+    display: flex;
+    visibility: visible;
+    margin-top: 10px;
+    width: 80%;
+    height: max-content;
+    background-color: transparent;
+    font-size: 120%;
+    color: black;
+    animation: title-in 600ms ease-in-out;
+    margin-top: 40px;
+  }
+  .title_contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    margin-top: 0px;
+    line-height:25px;
+    font-weight: 790;
+    font-size: 100%;
+    color: black;
+    
+    background-color: transparent;
+    
+  }
+  .title_contents_name,.title_contents_city,.title_contents_dob,
+  .title_contents_ca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 60%;
+    height: max-content;
+    color: black;
+    background-color: black;
+    color: orange;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: 630;
+    
+  }
+
+  .title_contents_langKnown,.title_contents_interest,
+  .title_contents_hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 70%;
+    height: max-content;
+    background-color: black;
+    color: orange;
+    padding: 6px;
+    border-radius: 20px;
+    font-weight: 630;
+    text-align: center;
+    
+  }
+  
+  .title_contents_nameHead,.title_contents_cityHead
+  ,.title_contents_dobHead,.title_contents_caHead
+  ,.title_contents_langHead,.title_contents_intHead
+  ,.title_contents_hobbHead{
+    display: flex;
+    width:50% ;
+    padding: 8px;
+  }
+
+  .details{
+    display: none;
+    visibility: hidden;
+    
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    font-size: 100%;
+    animation: details-in 1000ms ease-in-out;
+    
+  }
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1000px;
+    margin-bottom: 20%;
+    
+  }
+}
+
+@media only screen and (min-width:1250px){
+  
+  .left_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 50%;
+    height: max-content;
+  }
+  .right_about{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.img_about{
+  position: relative;
+  width: 65%;
+  height: 100%;
+  border-radius: 50%;
+  animation: img-in 2500ms ;
+  margin-top: 15%;
+}
+.about_me_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 260%;
+  font-weight: 500;
+  font-family:'Lobster',cursive ;
+  animation: heading-rotate 500ms;
+  margin-top: 2%;
+}
+.about_me_desc{
+  display: none;
+  visibility: hidden;
+  font-size:120% ;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.about_me_desc_left{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  font-size:120% ;
+  font-weight: 500;
+  margin-top: 10px;
+  animation: details-in 1000ms ease-in-out;
+}
+  .right_img_about{
+    display: none;
+    visibility: hidden;
+    
+  }
+  .title{
+    display: flex;
+    visibility: visible;
+    margin-top: 10px;
+    width: 80%;
+    height: max-content;
+    background-color: transparent;
+    font-size: 140%;
+    color: black;
+    animation: title-in 600ms ease-in-out;
+    margin-top: 40px;
+  }
+  .title_contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    margin-top: 0px;
+    line-height:25px;
+    font-weight: 790;
+    font-size: 100%;
+    color: black;
+    
+    background-color: transparent;
+    
+  }
+  .title_contents_name,.title_contents_city,.title_contents_dob,
+  .title_contents_ca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 60%;
+    height: max-content;
+    color: black;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 630;
+    
+  }
+
+  .title_contents_langKnown,.title_contents_interest,
+  .title_contents_hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background-color: transparent;
+    width: 70%;
+    height: max-content;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 630;
+    text-align: center;
+    
+  }
+  
+  .title_contents_nameHead,.title_contents_cityHead
+  ,.title_contents_dobHead,.title_contents_caHead
+  ,.title_contents_langHead,.title_contents_intHead
+  ,.title_contents_hobbHead{
+    display: flex;
+    width:50% ;
+    padding: 10px;
+  }
+
+  .details{
+    display: none;
+    visibility: hidden;
+    
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    font-size: 100%;
+    animation: details-in 1000ms ease-in-out;
+    
+  }
+  .footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    position: absolute;
+    height: 10%;
+    margin-top: 1000px;
+    margin-bottom: 20%;
+    
+  }
+}
+
