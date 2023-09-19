@@ -87,10 +87,10 @@
 
 .title{
   display: flex;
-  align-items:  flex-start;
+  justify-content: flex-start;
   width: 30%;
-  height: 100%;
-  background-color: white;
+  height: 120%;
+  background-color: transparent;
   color: black;
   animation: title-in 600ms ease-in-out;
 }
@@ -105,8 +105,9 @@
 }
 .title_contents{
   display: flex;
+  flex-direction: column;  
   margin-top: 25px;
-  line-height: 35px;
+  line-height: 10px;
   font-weight: 630;
   font-size: 110%;
   color: blue;
@@ -118,6 +119,36 @@
   visibility: hidden;
   width: 0px;
   height: 0px;
+}
+.title_contents_nameHead,.title_contents_cityHead
+{
+  display: flex;
+  padding: 2px;
+  width: 50%;
+  height: 20%;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 730;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.title_contents_dobHead,.title_contents_caHead,
+.title_contents_langHead,.title_contents_intHead,
+.title_contents_hobbHead{
+  display: flex;
+  padding: 2px;
+  width: 110%;
+  height: 20%;
+  background-color: orange;
+  border-radius: 10px;
+  color: black;
+  font-weight: 730;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .details_content{
@@ -232,7 +263,7 @@
   .title{
     display: flex;
     visibility: visible;
-    margin-top: -20px;
+    margin-top: 10px;
     width: 100%;
     height: max-content;
     background-color: transparent;
